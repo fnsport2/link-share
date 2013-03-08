@@ -1,0 +1,7 @@
+<div>
+
+<p>Your new url :</p> 
+<br>
+<p><b> {{shorturl}}</b></p>
+
+</div>

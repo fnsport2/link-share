@@ -1,0 +1,11 @@
+{
+  "name": "Linkshare",
+  "author": {
+    "name": "Felix Nance",
+    "email": "felix@ck12.org"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": "ticket_sidebar",
+  "frameworkVersion": "0.5"
+}
