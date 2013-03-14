@@ -2,11 +2,22 @@
   <span class="logo"/>
   <h3>{{setting "name"}}</h3>
 </header>
+
+<p> Please enter an url to shorten it<p> 
+<form id="target">
+
+<p>Title:&nbsp;<input id="title" type="text"></p>
+<p>Url:&nbsp;&nbsp;&nbsp;<input id="long-url" type="text"></p>
+	
+<button class="btn" id="short-it"><span>Short it</span></button>
+</form>
+
+<hr>
 <section data-main/>
 
-
-<footer>
-  <a href="mailto:{{author.email}}">
-    {{author.name}}
-  </a>
-</footer>
+<div>
+{{#urls}}
+<p>{{urls.title}} : &nbsp;<b>{{urls.shorturl}}</b></p>
+{{/urls}}
+</div>
+<footer></footer>

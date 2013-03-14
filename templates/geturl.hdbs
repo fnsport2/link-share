@@ -1,7 +1,0 @@
-<p> Please enter an url to shorten it<p> 
-<form id="target">
-
-<input id="long-url" type="text">
-	
-<input type="submit" id="short-it">
-</form>

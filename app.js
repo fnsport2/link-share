@@ -4,6 +4,7 @@ var debug = true;
 function log(msg){
     if (debug){
         console.log(msg);
+        Author: Felix Nance
     }
 }
     return {

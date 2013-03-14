@@ -1,7 +1,7 @@
 <div>
 
-<p>Your new url :</p> 
-<br>
-<p><b> {{shorturl}}</b></p>
+{{#each urls}}
+<p>{{this.title}} : &nbsp;<b>{{this.shorturl}}</b></p>
+{{/each}}
 
 </div>
